@@ -27,12 +27,16 @@
         {
           "name": "HelloWorldIntent",
           "slots": [
-
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName"
+            }
           ],
           "samples": [
             "hello",
             "say hello",
-            "say hello world"
+            "say hello world",
+            "say hello {name}"
           ]
         }
       ]
